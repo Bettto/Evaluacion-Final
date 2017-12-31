@@ -36,3 +36,8 @@ body {
   text-align: center;
   color: white;
 }
+.col-der-busquedas {
+  background-color: #494142;
+  opacity: 0.9;
+  padding: 5% 5% 5% 5%;
+}
