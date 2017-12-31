@@ -14,6 +14,7 @@
   </head>
   <body>
     <header>
+      <!---- Barra nav --->
       <nav class='navbar-barra navbar-fixed-top affix-top'>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left">
@@ -23,6 +24,7 @@
             <div class="titulo-text d-none d-md-block d-lg-block">
               <h1>Punkonciencia</h1>
             </div>
+            <!---- Barra de redes sociales --->
             <div class="redes-sociales float-right">
               <a href="#"><img class="img-rounded" class="img-social" src="img/fb.png" alt="Facebook"></a>
               <a href="#"><img class="img-rounded" class="img-social" src="img/tt.png" alt="Twitter"></a>
@@ -32,28 +34,93 @@
         </div>
       </nav>
     </header>
-
-      <div class="row barra expanded">
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-warning btn-block active">Inicio</button>
+  <!---- Barra de menú --->
+    <div class="row barra">
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <button type="button" class="btn btn-warning btn-block active">Inicio</button>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <button type="button" class="btn btn-danger btn-block">Artistas</button>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <button type="button" class="btn btn-warning btn-block">Shows</button>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <button type="button" class="btn btn-danger btn-block">Letras</button>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <button type="button" class="btn btn-warning btn-block">Historia</button>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <button type="button" class="btn btn-danger btn-block">Varios</button>
+      </div>
+    </div>
+    <!---- Cuerpo de la página --->
+    <div class="row">
+      <!---- Contenido del blog --->
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <!---- Primer post --->
+        <div class="row post">
+          <div class="post-titulo col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1>The Clash</h1>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <img class="rounded float-left img-fluid" src="img/clash-sandinista.jpg" alt="the-clash">
+          </div>
+          <div class="float-right col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <p class="post-text">
+              The Clash fue una banda británica de punk que estuvo activa entre 1976 y 1986. El grupo fue uno de los más importantes e icónicos de la primera ola del punk originada a fines de los años 70 y, a diferencia de la mayoría de las bandas punk que se caracterizaban por su simplicidad musical, incorporó reggae, rock, rockabilly, ska, jazz y dub entre otros variados estilos en su repertorio. The Clash llegó a ser una banda muy influyente en la música mundial.
+              <br>
+              Sumado a esto, The Clash exhibió una intencionalidad política en sus letras que con el tiempo se convertiría en su característica distintiva fundamental. El idealismo expresado en las composiciones de Joe Strummer y Mick Jones contrastó con el nihilismo de Sex Pistols y la sencillez de Ramones, las otras bandas emblemas del punk en la época. Aunque su éxito en el Reino Unido fue inmediato, la banda no se ganó al público estadounidense hasta los años 80.​
+              <br>
+              Su tercer álbum, London Calling (publicado en 1979), es considerado uno de los mejores discos de la historia de la música. De hecho, la revista Billboard lo calificó como el mejor de los años 1980, y según la revista Rolling Stone como el octavo mejor de la historia en su lista de los 500 mejores álbumes de todos los tiempos, donde también figuran otros dos discos del grupo, The Clash y Sandinista!, en las posiciones n.º 77 y n.º 404 respectivamente.​
+              <br>
+              Algunos de sus temas más reconocidos fueron "Police & Thieves", "White Riot", "Tommy Gun", "London Calling", "Train in Vain", "(White Man) In Hammersmith Palais", "The Guns of Brixton", "Complete Control", "Rock the Casbah" y "Should I Stay or Should I Go". Esta última canción fue un gran éxito 6 años después de la disolución del grupo debido a su uso en una campaña publicitaria de Levi's.
+              <br>
+              En 2003 fueron incluidos en el Salón de la Fama del Rock situado en Ohio, Estados Unidos. Un año más tarde, Rolling Stone los incluyó en la posición n.º 28 de "The Immortals".
+              <br>
+              A lo largo del tiempo, se ha asentado entre los fanáticos y los críticos el apodo atribuido en una ocasión por su discográfica CBS Records, "the only band that matters" (en español "la única banda que importa") para referírseles. La aplicación del mismo refiere a que el grupo nunca se desvió de sus ideales ni de sus costumbres por buscar beneficios personales.
+            </p>
+          </div>
+          <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="form-group">
+              <label for="comentario" class="post-text">Comentarios</label>
+              <textarea id="comentario" class="form-control" rows="3"></textarea>
+              <button class="float-right" type="submit" name="button">enviar</button>
+            </div>
+          </form>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-danger btn-block">Artistas</button>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-warning btn-block">Shows</button>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-danger btn-block">Letras</button>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-warning btn-block">Historia</button>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-danger btn-block">Varios</button>
+        <!---- Segundo post --->
+        <div class="row post">
+          <div class="post-titulo col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1>Ska-P</h1>
+          </div>
+          <div class="float-right col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <p class="post-text">
+              Ska-P (pronunciado escape) es un grupo español de ska punk formado en Vallecas (Madrid) en 1994. Sus canciones se caracterizan por su inconformismo y alocamiento, con letras anticapitalismo, antifascismo, antitauromaquia, antisionismo, antimperialismo, críticas a los medios de comunicación y anticlericales críticas a la Iglesia católica. Cantan letras que apoyan los derechos de los animales, el veganismo, el ecologismo, el anarquismo y el anarcosindicalismo. Han compuesto canciones respaldando la lucha del Ejército Zapatista de Liberación Nacional, el pueblo palestino y la revolución bolivariana, homenajeando en la canción "El libertador" al ex presidente venezolano Simón Bolivar. Su canción «Cannabis»,​ reivindica y apoya la legalización de la marihuana. Algunos de sus temas son "El vals del obrero", "Mis colegas", "Sexo y religión", "Niño soldado", entre otros. Aunque su principal género es el ska punk, en algunas de sus canciones también hay ritmos españoles, latinos, de días festivos como villancicos, y otros estilos jamaicanos como el reggae, que en varias ocasiones buscan enfatizar el tema de la canción. Otras también son de ska, sin demasiados ritmos de punk, y viceversa.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <img class="rounded float-left img-fluid" src="img/skap.jpg" alt="the-clash">
+          </div>
+          <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="form-group">
+              <label for="comentario" class="post-text">Comentarios</label>
+              <textarea id="comentario" class="form-control" rows="3"></textarea>
+              <button class="float-right" type="submit" name="button">enviar</button>
+            </div>
+          </form>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          </div>
         </div>
       </div>
+      <!---- Barra lateral derecha --->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
+      </div>
+    </div>
 
 
 

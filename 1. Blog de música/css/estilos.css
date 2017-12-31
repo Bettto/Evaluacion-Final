@@ -1,25 +1,7 @@
-@font-face {
- font-family: punk;
- src: ../font/punk.ttf;
-}
-@font-face {
- font-family: hussar;
- src: ../font/hussar.otf;
-}
-@font-face {
- font-family: allages;
- src: ../font/allages.ttf;
-}
-@font-face {
- font-family: broken;
- src: ../font/broken.ttf;
-}
-@font-face {
- font-family: prs;
- src: ../font/prs.ttf;
-}
 body {
-  font-family: hussar;
+  background: #494142  url(../img/background-ramones.jpg) right no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .navbar-barra {
   background-color: #bd0505;
@@ -41,6 +23,16 @@ body {
       bottom:0px;
       right: 0px;
 }
-.barra {
+.post {
   background-color: #494142;
+  opacity: 0.9;
+  padding: 5% 5% 5% 5%;
+}
+.post-text {
+  color: white;
+}
+.post-titulo {
+  font-family: broken;
+  text-align: center;
+  color: white;
 }
