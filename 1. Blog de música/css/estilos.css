@@ -1,0 +1,43 @@
+@font-face {
+ font-family: punk;
+ src: ../font/punk.ttf;
+}
+@font-face {
+ font-family: hussar;
+ src: ../font/hussar.otf;
+}
+@font-face {
+ font-family: allages;
+ src: ../font/allages.ttf;
+}
+@font-face {
+ font-family: broken;
+ src: ../font/broken.ttf;
+}
+@font-face {
+ font-family: prs;
+ src: ../font/prs.ttf;
+}
+body {
+  font-family: hussar;
+}
+.navbar-barra {
+  background-color: #bd0505;
+  min-height: 10%;
+  border: none;
+  padding: 0% 5% 0% 5%;
+}
+.logo-img {
+  width: 150px;
+}
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.redes-sociales {
+  position:absolute;
+      bottom:0px;
+      right: 0px;
+}
