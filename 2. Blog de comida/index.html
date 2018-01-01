@@ -13,7 +13,193 @@
     <title>El mundo del queso</title>
   </head>
   <body>
-    
+    <!---- Barra de Título --->
+    <div class="grid-container fluid grid-padding-x">
+      <div class="grid-x">
+        <!---- Columna de título --->
+        <div class="medium-5 large-5 cell">
+          <h1 id="titulo-text">El mundo del queso</h1>
+          <h5 id="slogan-text"class="text-right">disfruta de la mejor gastronomía</h5>
+        </div>
+        <!---- Columna vacía --->
+        <div class="auto cell">
+        </div>
+      </div>
+    </div>
+    <!---- Cuerpo --->
+    <div class="grid-container fluid grid-padding-x">
+      <div class="grid-x">
+        <!---- Barra izquierda --->
+        <div class="medium-5 large-5 cell">
+          <!---- Búsqueda --->
+          <div class="input-group">
+            <span class="input-group-label"><i class="fi-magnifying-glass size-36"></i> </span>
+            <input class="input-group-field" type="text" placeholder="buscar...">
+            <div class="input-group-button">
+              <input type="text" id="busqueda" class="button" value="Buscar">
+            </div>
+          </div>
+          <!---- Menú --->
+          <ul class="vertical menu">
+            <li><a class="button expanded" href="#">Inicio</a></li>
+            <li><a class="button expanded" href="#">Recetas</a></li>
+            <li><a class="button expanded" href="#">Mi plato favorito</a></li>
+          </ul>
+          <!---- galería de fotos --->
+          <div class="grid-container">
+            <div class="grid-x">
+              <div class="small-6 medium-4 large-4">
+                <img src="img/cordon-blue.jpg" alt="cordon-blue" class="thumbnail"/>
+              </div>
+              <div class="small-6 medium-4 large-4">
+                <img src="img/lasagna.jpg" alt="lasagna" class="thumbnail"/>
+              </div>
+              <div class="small-6 medium-4 large-4">
+                <img src="img/pastas.jpg" alt="pastas" class="thumbnail"/>
+              </div>
+              <div class="small-6 medium-4 large-4">
+                <img src="img/pizza.jpg" alt="pizza" class="thumbnail"/>
+              </div>
+              <div class="small-6 medium-4 large-4">
+                <img src="img/hamburguesa.jpg" alt="hamburguesa" class="thumbnail"/>
+              </div>
+              <div class="small-6 medium-4 large-4">
+                <img src="img/plato-paceno.jpg" alt="plato-paceno" class="thumbnail"/>
+              </div>
+            </div>
+          </div>
+          <!---- historial --->
+          <div class="grid-container">
+            <div class="grid-x">
+              <ul class="no-bullet medium-12 large-12">
+                <li><a class="hollow button expanded" href="#">Pizza</a></li>
+                <li><a class="hollow button expanded" href="#">Plato paceño</a></li>
+                <li><a class="hollow button expanded" href="#">Cheese burguer</a></li>
+                <li><a class="hollow button expanded" href="#">Spaghetti</a></li>
+                <li><a class="hollow button expanded" href="#">Queso humacha</a></li>
+                <li><a class="hollow button expanded" href="#">Ravioles</a></li>
+                <li><a class="hollow button expanded" href="#">Lasagna</a></li>
+                <li><a class="hollow button expanded" href="#">Papas gratinadas con queso</a></li>
+                <li><a class="hollow button expanded" href="#">Cordon blue</a></li>
+                <li><a class="hollow button expanded" href="#">Pizza especial</a></li>
+                <li><a class="hollow button expanded" href="#">Croquetas de pescado con queso</a></li>
+                <li><a class="hollow button expanded" href="#">Huminta</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!---- Contenido --->
+        <div class="medium-7 large-7 cell">
+          <!---- Primer post --->
+          <div class="grid-container">
+            <div class="grid-x fluid grid-padding-x" id="post">
+              <div class="cell">
+                <div class="cell text-center">
+                  <h1 class="">Comiendo Pizza en La Paz</h1>
+                </div>
+                <div class="cell text-center">
+                  <h5>20 de Octubre de 2016</h5>
+                </div>
+              </div>
+              <img src="img/pizzalp.jpg" alt="pizza-en-san-pedro" class="thumbnail float-center">
+              <div class="cell">
+                <h4>Pizza por San Pedro</h4>
+                <p>
+                  Luego de un agitado día de trabajo, nada como dar una vuelta por la plaza de San Pedro y poder degustar una deliciosa pizza.
+                  <br>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit libero a turpis scelerisque, nec mattis nibh cursus. Vestibulum non nisl vel odio aliquam eleifend. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed arcu dolor. Proin ex sem, rutrum vitae sodales nec, sodales vel metus. Morbi ut leo vel tortor aliquet egestas vel eget neque. Nunc finibus est justo, at venenatis lorem fermentum cursus. Nulla vel nisl venenatis, consectetur elit sed, faucibus metus.
+                  <br>
+                  Nam ex quam, convallis eget pharetra eu, consectetur in dolor. Sed venenatis, urna ac eleifend consectetur, metus purus condimentum mauris, ut dapibus turpis nulla sed urna. Pellentesque ac libero malesuada, condimentum orci bibendum, mollis ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc urna felis, mollis in posuere convallis, sodales sit amet sapien. Donec tempor quam a venenatis consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed quis nibh at massa pharetra faucibus. Sed dictum metus vel arcu tincidunt, in eleifend turpis dapibus. Ut feugiat, dui sit amet venenatis blandit, leo risus pulvinar orci, quis pellentesque turpis sem eget leo.
+                </p>
+              </div>
+              <div class="input-group">
+                <span class="input-group-label"><i class="fi-male-female size-36"></i></span>
+                <input class="input-group-field" type="text" placeholder="deja tu comentario..." rows="3">
+                <div class="input-group-button">
+                  <input type="text" id="comentario" class="button" value="enviar">
+                </div>
+              </div>
+              <div class="cell">
+                <blockquote>
+                  <i class="fi-torso-business size-36"></i>
+                  <cite>Comida Ejecutiva</cite>
+                  Me encanta su sitio, sobre todo las recomendaciones para ir a comer a algún lugar
+                </blockquote>
+                <blockquote>
+                  <i class="fi-torso size-36"></i>
+                  <cite>José Perez</cite>
+                  Gracias a su sitio aprendí a cocinar una pizza en casa tan rica, que ya no necesito ir a probar a pizzerias
+                </blockquote>
+                <blockquote>
+                  <i class="fi-torso-female size-36"></i>
+                  <cite>Linda</cite>
+                  Muchas gracias por la receña del lugar, lo prové y me encantó
+                </blockquote>
+                <blockquote>
+                  <i class="fi-torso size-36"></i>
+                  <cite>Luis</cite>
+                  Me gusto la pizza en ese lugar, solo que prefiero las del Prado
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!---- Segundo post --->
+          <div class="grid-container">
+            <div class="grid-x fluid grid-padding-x" id="post">
+              <div class="cell">
+                <div class="cell text-center">
+                  <h1 class="">El mejor restaurant de la ciudad</h1>
+                </div>
+                <div class="cell text-center">
+                  <h5>1 de noviembre de 2016</h5>
+                </div>
+              </div>
+              <img src="img/gustu.jpg" alt="pizza-en-san-pedro" class="thumbnail float-center">
+              <div class="cell">
+                <h4>Gustu</h4>
+                <p>
+                  Es un gran restaurant, está catalogado entre los mejores de latinoamérica y cuando lo pruebes te encantantará.
+                  <br>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit libero a turpis scelerisque, nec mattis nibh cursus. Vestibulum non nisl vel odio aliquam eleifend. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed arcu dolor. Proin ex sem, rutrum vitae sodales nec, sodales vel metus. Morbi ut leo vel tortor aliquet egestas vel eget neque. Nunc finibus est justo, at venenatis lorem fermentum cursus. Nulla vel nisl venenatis, consectetur elit sed, faucibus metus.
+                  <br>
+                  Nam ex quam, convallis eget pharetra eu, consectetur in dolor. Sed venenatis, urna ac eleifend consectetur, metus purus condimentum mauris, ut dapibus turpis nulla sed urna. Pellentesque ac libero malesuada, condimentum orci bibendum, mollis ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc urna felis, mollis in posuere convallis, sodales sit amet sapien. Donec tempor quam a venenatis consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed quis nibh at massa pharetra faucibus. Sed dictum metus vel arcu tincidunt, in eleifend turpis dapibus. Ut feugiat, dui sit amet venenatis blandit, leo risus pulvinar orci, quis pellentesque turpis sem eget leo.
+                </p>
+              </div>
+              <div class="input-group">
+                <span class="input-group-label"><i class="fi-male-female size-36"></i></span>
+                <input class="input-group-field" type="text" placeholder="deja tu comentario..." rows="3">
+                <div class="input-group-button">
+                  <input type="text" id="comentario" class="button" value="enviar">
+                </div>
+              </div>
+              <div class="cell">
+                <blockquote>
+                  <i class="fi-torso-female size-36"></i>
+                  <cite>ADiablita</cite>
+                  Los precios me sorprendieron bastante, pero la comida deliciosa
+                </blockquote>
+                <blockquote>
+                  <i class="fi-torso-business size-36"></i>
+                  <cite>Comida Ejecutiva</cite>
+                  Excelente, gran recomendación
+                </blockquote>
+                <blockquote>
+                  <i class="fi-torso size-36"></i>
+                  <cite>Alex</cite>
+                  Delicioso, la pase muy bien con mi familia
+                </blockquote>
+                <blockquote>
+                  <i class="fi-torso-female size-36"></i>
+                  <cite>Susana Aramayo</cite>
+                  Encontré mejores restaurantes en la ciudad
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/what-input.js"></script>

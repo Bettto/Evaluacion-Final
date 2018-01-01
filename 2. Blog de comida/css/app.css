@@ -1,0 +1,18 @@
+body {
+  background: #FFFFFF  url(../img/background-queso.jpg)no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#titulo-text {
+  color: #E95542;
+  text-shadow: 2px 2px #433D3B
+}
+#slogan-text {
+  color: #E95542;
+  text-shadow: 1px 1px #433D3B
+}
+#post {
+  background-color: #FCDF02;
+  opacity: 0.8;
+  color: #433D3B;
+}
